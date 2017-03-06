@@ -6,7 +6,7 @@ class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(128), index=True, unique=True)
-    password= db.Column(db.String(128))
+    password = db.Column(db.String(128))
     favorites = db.relationship('Favorite', backref='user', lazy='dynamic')
 
     def __init__(self, username, email, password):

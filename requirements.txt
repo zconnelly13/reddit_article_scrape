@@ -7,13 +7,13 @@ Flask==0.12
 Flask-Bcrypt==0.7.1
 Flask-Login==0.4.0
 Flask-Mail==0.9.1
+flask-script==2.0.5
 Flask-SQLAlchemy==2.2
 Flask-WTF==0.14.2
 itsdangerous==0.24
 Jinja2==2.9.5
 MarkupSafe==0.23
 packaging==16.8
-pkg-resources==0.0.0
 pycparser==2.17
 pyparsing==2.1.10
 requests==2.13.0

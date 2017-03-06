@@ -58,6 +58,7 @@ def login():
 
     return render_template('index.html', form=form)
 
+
 def create_user():
     form = RegistrationForm(request.form)
     if request.method == 'POST' and form.validate():
