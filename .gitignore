@@ -93,3 +93,6 @@ ENV/
 # Vim temp files
 *.swp
 *.swo
+
+# Database
+app.db
